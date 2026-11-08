@@ -1,0 +1,23 @@
+{
+  "name": "diskwise",
+  "displayName": "Diskwise",
+  "description": "Keeps the disk lean while Claude works (no _v2/_final copies, no stray scratch files, compressed outputs) and acts as a disk-space specialist: caches, build folders, duplicates, version copies, extracted archives, git bloat, verified backups, quarantine-first removal with undo.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Lucas Terres de Lima",
+    "email": "lucasterres@gmail.com",
+    "url": "https://github.com/lucasterres"
+  },
+  "homepage": "https://github.com/lucasterres/diskwise#readme",
+  "repository": "https://github.com/lucasterres/diskwise",
+  "license": "MIT",
+  "keywords": [
+    "disk-space",
+    "cleanup",
+    "duplicates",
+    "workspace-hygiene",
+    "backup",
+    "storage",
+    "claude-code"
+  ]
+}

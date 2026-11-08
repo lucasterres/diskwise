@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "diskwise",
+  "description": "Diskwise: disk hygiene and disk-space cleanup for Claude Code.",
+  "owner": {
+    "name": "Lucas Terres de Lima",
+    "email": "lucasterres@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "diskwise",
+      "source": "./",
+      "description": "Keeps the disk lean while Claude works and frees space safely: caches, build folders, duplicates, version copies, extracted archives, git bloat, verified backups.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Lucas Terres de Lima"
+      },
+      "homepage": "https://github.com/lucasterres/diskwise#readme",
+      "repository": "https://github.com/lucasterres/diskwise",
+      "keywords": [
+        "disk-space",
+        "cleanup",
+        "duplicates",
+        "workspace-hygiene",
+        "backup"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

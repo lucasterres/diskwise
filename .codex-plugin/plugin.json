@@ -1,0 +1,34 @@
+{
+  "name": "diskwise",
+  "version": "0.1.0",
+  "description": "Disk hygiene while the agent works, plus a disk-space specialist with safe, undoable cleanup and verified backups.",
+  "author": {
+    "name": "Lucas Terres de Lima",
+    "email": "lucasterres@gmail.com",
+    "url": "https://github.com/lucasterres"
+  },
+  "homepage": "https://github.com/lucasterres/diskwise#readme",
+  "repository": "https://github.com/lucasterres/diskwise",
+  "keywords": [
+    "disk-space",
+    "cleanup",
+    "duplicates",
+    "backup"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Diskwise",
+    "shortDescription": "Keep your disk lean while you work",
+    "longDescription": "Keeps workspaces free of version copies, scratch files and uncompressed intermediates, and frees disk space safely: caches, build folders, duplicates, extracted archives, git bloat, with quarantine-first removal and hash-verified backups.",
+    "developerName": "Lucas Terres de Lima",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/lucasterres/diskwise",
+    "defaultPrompt": [
+      "My disk is almost full. Find what I can safely remove."
+    ],
+    "brandColor": "#0EA5A4"
+  }
+}

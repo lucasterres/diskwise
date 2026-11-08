@@ -1,0 +1,21 @@
+{
+  "hooks_enabled": true,
+  "session_context": true,
+  "version_guard": "advise",
+  "stop_check": "notify",
+  "large_file_mb": 200,
+  "session_growth_warn_mb": 2048,
+  "low_disk_free_gb": 20,
+  "low_disk_free_pct": 10,
+  "stop_scan_budget_s": 2.0,
+  "dupes_min_size": "1MB",
+  "stale_project_days": 90,
+  "never_touch": [
+    "~/Datasets/golden",
+    "D:\\Deliveries"
+  ],
+  "never_touch_globs": [
+    "*\\training_inputs\\*"
+  ],
+  "quarantine_dir": null
+}

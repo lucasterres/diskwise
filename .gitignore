@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.diskwise-quarantine/
+.diskwise/
+*.diskwise-part
+.venv/
+.DS_Store
+Thumbs.db
